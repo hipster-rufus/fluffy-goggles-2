@@ -4,68 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio: Kali Lott</title>
 </head>
 <body>
     <header>
         <h1>Welcome to my <br> PORTFOLIO</h1>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#sct-3">Contact</a>
+            <a href="#sct-2">Portfolio</a>
+            <a href="#sct-1">About Me</a>
         </nav>
+        <hr>
     </header>
 
     <main>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <img src="#">
-            <p>Hi, I'm Kali! Welcome to my portfolio. 
-                I am a Denver-born graphic designer who is transitioning into the world of computer science. 
-                Click on my projects to learn more!</p>
+        <section id="sct-1" class="about-me">
+            <h2>About <br> Me</h2>
+            <img class="headshot" src="./assets/images/D8607EDB-0E25-4ACA-80A8-615F379FF4B2_1_105_c.jpeg">
+            <p>Hi, my name is Kali Lott. 
+                <br>
+                I am a Denver-born graphic designer who wants to transition into the field of software development. 
+                Take a look at my portfolio and click on each project to learn more...</p>
         </section>
-
-        <div id="portfolio">
+        <section id="sct-2" class="portfolio">
             <h2>Portfolio</h2>
-            <section>
-                <a href="#">
-                    <img src="#">
-                </a>
-                <h3>1: Prework Study Guide</h3>
+            <section class="project-content">
+                <section class="project-1">
+                    <a href="http://hipster-rufus.github.io/prework-study-guide">
+                        <img src="./assets/images/pjkt-1.jpg">
+                    </a>
+                </section>
+                <section class="addt-projects">
+                    <section id="project-2">
+                        <a href="http://hipster-rufus.github.io/stunning-potato-1">
+                            <img src="./assets/images/pjkt-2.jpg">
+                        </a>
+                    </section>
+                    <section id="project-3">
+                        <a href="http://hipster-rufus.github.io/animated-bassoon-3">
+                            <img src="./assets/images/pjkt-3.jpg">
+                        </a>
+                    </section>
+                    </section>
+                </section>
             </section>
-            <section>
-                <a href="#">
-                    <img src="#">
-                </a>
-                <h3>2: Horiseon Accessibility</h3>
-            </section>
-            <section>
-                <a href="#">
-                    <img src="#">
-                </a>
-                <h3>3: Random Password Generator</h3>
-            </section>
-            <section>
-                <a href="#">
-                    <img src="#">
-                </a>
-                <h3>4: Coming Soon</h3>
-            </section>
-            <section>
-                <a href="#">
-                    <img src="#">
-                </a>
-                <h3>5: Coming Soon</h3>
-            </section>
-        </div>
-
-        <section id="section">
-            <h2>Contact</h2>
-            <button><a href="tel:0000000000">Phone</a></button>
-            <button><a href="mailto:kali.lott.99@gmail.com">Email</a></button>
-            <button><a href="#">LinkedIn (coming soon)</a></button>
         </section>
+        <section id="sct-3" class="contact">
+            <h2>Contact</h2>
+            <section class="contact-items">
+                <a href="tel:0000000000">Phone</a>
+                <a href="mailto:kali.lott.99@gmail.com">Email</a>
+                <a href="#">LinkedIn (coming soon)</a></section>
+        </section>
+        <hr>
+
+        <footer>
+            <a class="go-back" href="#">Back to Top</a>
+        </footer>
     </main>
 </body>
 </html>
